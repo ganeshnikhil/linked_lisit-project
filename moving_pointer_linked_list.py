@@ -116,8 +116,7 @@ print(song_list)
 listen()
 #press esc
 
-#data=input("enter the song you wana play")
-#print(data)
+
 
 
 
