@@ -1,11 +1,12 @@
 # music-player
 all the uploaded file are a music player
 every new version is updated version of previous
-In music_player_0.0.py is very basic music player that can play music and store played music .
-and using a old and light weight libraries
 
-#In music_player_0.1.py is  modified version of previous here we use a old kind of libraries and can playe 
-.mp3 and .wav file format files using pygame library and also calculate the song lenght 
+#In music_player_0.0.py is very basic music player that can play music and store played music .
+and using a old and light weight libraries . only support .wav file format 
+
+#In music_player_0.1.py is  modified version of previous here we use a new kind of libraries than previous and we can play 
+.mp3 and .wav file formats using pygame library and also calculate the song.lenght 
 and name the up down counter more accuraltely.
 
 
