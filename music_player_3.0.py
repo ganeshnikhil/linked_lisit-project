@@ -56,7 +56,7 @@ files=os.listdir(path)
 songs=[ songs for songs in files if songs.endswith('.mp3') or songs.endswith('.wav')]
 
 #created a file to check which song gets more hit 
-filename='music_counter.txt'
+filename='music_hit_3.0.txt'
 #open that file in read mode      
 file_hit=open(filename,'r')
  #create a empty list 
@@ -207,8 +207,8 @@ def listen():
 
 
 listen()
-print(songs_hit)
-with open('music_counter.txt','w') as f:
+#print(songs_hit)
+with open('music_hit_3.0.txt','w') as f:
     for i in range(len(songs_hit)):
         f.write(songs_hit[i])
     
