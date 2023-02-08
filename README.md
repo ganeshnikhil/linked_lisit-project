@@ -16,7 +16,7 @@ single command for playing song we only enter 'enter_key'.
 
 #In music_player_3.0.py is modified version of previous . here we implemented sorting of song recommendtion according 
 to song hits data. 
-we create a file music_hits_0.3.txt which store the data of song hits 
+we create a file music_hits_3.0.txt which store the data of song hits 
 all songs are arranged according to that data 
 it reccomends max hit songs at top of the list
 for better user exprience.
