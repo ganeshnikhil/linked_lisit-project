@@ -8,8 +8,7 @@ from mutagen.mp3 import MP3
 import colorama
 from colorama import Fore, Back, Style
 import pyautogui
-#/Users/kartiksingh/Downloads
-#colorama.init(autoreset=True)
+
 from pygame import mixer
 import pyautogui 
 #create a linked list to store the song
@@ -162,7 +161,7 @@ def on_press(key):
             song=song_list[count_pointer_postion][0]
 
 
-            #print(songs_hit)
+
             
 
                 #run the loop to the lenght of song_hit list
@@ -188,16 +187,14 @@ def on_press(key):
             
             #then covnvert lenght into time format using convert() function and print it to screen
             print("[^v]Now playing:{0}.[{1}]".format(song,duration))
-            #processing_bar(int(song_len))
+           
             #then play the song repatedly until new song is not chossen by user..
             mixer.music.load(path+song)
             mixer.music.play(-1)
 
-            #llist.push(song)
-            #llist.printlist()
+         
             processing_bar(int(song_len))
-            #process_bar(int(song_len))
-            #process(int(song_len))
+           
             pyautogui.press('down')
             time.sleep(0.5)
             pyautogui.press('enter')
